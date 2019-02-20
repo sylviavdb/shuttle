@@ -1,0 +1,178 @@
+* {
+	font-family: Arial;
+}
+
+
+header{
+	height: auto;
+	width: auto;
+	background-color: black;
+	
+	/*background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+ */
+}
+
+header img{
+	max-width: 100%;
+  	height: auto;
+}
+
+.title{
+	width: 100%;
+	height: auto;
+}
+
+.title h1{
+	text-align: center;
+	font-style: italic;
+}
+
+.imgRuimte{
+	background-color: black;
+}
+
+.imgRuimte img{
+	max-width: 100%;
+  	height: auto;
+}
+
+.rechthoek1 {
+	background-color: black;
+	width: auto;
+	height: 30%;
+}
+
+.rechthoek1 h2{
+	text-align: center;
+	font-style: italic;
+	color: white;
+	padding-top: 5%;
+}
+
+.dashboard{
+	  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.datavisual1, .datavisual2, .datavisual3{
+	padding: 10%;
+	border-color: grey;
+	border-style: solid;
+	border-width: 1px;
+	margin: 5%;
+}
+
+/* end small */
+
+/* begin medium */
+
+@media only screen and (min-width: 500px) and (max-width: 799px){
+	header{
+	height: auto;
+	width: auto;
+	background-color: #0D0D0D;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	
+	/*background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+ */
+	}
+
+	header img{
+		
+		max-width: auto;
+  		height: auto;
+  		padding-left: 43%;
+  		grid-column: 1;
+	}
+
+	.rechthoek2 h2{
+		display: grid;
+		width: 100%;
+		grid-column-start: 2;
+		grid-column-end: 4;
+	}
+
+
+
+	.imgRuimte{
+		background: url("../img/astronaut.jpg");
+		background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	}
+	.imgRuimte img{
+		display: none;
+
+	}
+
+
+}
+
+/* einde medium */
+
+/* begin large */
+@media only screen and (min-width: 800px) and (max-width: 999px){
+	header img{
+	height: auto;
+	width: auto;
+	background-color: #0D0D0D;
+	padding-left: 33%;
+} 
+
+.imgRuimte{
+	background: url("../img/astronaut.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.imgRuimte img{
+	height: 0px;
+	width: 0px;
+}
+
+.rechthoek1{
+	margin-top: 35%;
+}
+
+.rechthoek1 h2{
+	padding-top: 5%; 
+}
+
+.dashboard{
+	display: grid;
+	grid-column: auto auto auto;
+					
+}
+}
+/* einde klein scherm */
+
+/*begin groot scherm */
+
+@media only screen and (min-width: 1000px){
+	header img{
+		
+		max-width: auto;
+  		height: auto;
+  		padding-left: 37%;
+  		grid-column: 1;
+	}
+
+	.rechthoek1{
+		padding-top: 0%;
+	}
+
+	.dashboard{
+		display: grid;
+    	grid-template-columns: 1fr 1fr 1fr;
+	}
+
+
+}
