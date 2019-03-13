@@ -1,0 +1,36 @@
+@media only screen and (min-width: 800px) and (max-width: 999px){
+	header img{
+	height: auto;
+	width: auto;
+	background-color: #0D0D0D;
+	padding-left: 33%;
+} 
+
+.imgRuimte{
+	background: url("../img/astronaut.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.imgRuimte img{
+	height: 0px;
+	width: 0px;
+}
+
+.rechthoek1{
+	margin-top: 35%;
+}
+
+.rechthoek1 h2{
+	padding-top: 5%; 
+}
+
+.dashboard{
+	display: grid;
+	grid-column: auto auto auto;
+					
+}
+}
