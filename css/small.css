@@ -64,37 +64,4 @@ header img{
 	margin: 5%;
 }
 
-/* end small */
 
-/* begin medium */
-
-
-
-/* einde medium */
-
-/* begin large */
-
-/* einde klein scherm */
-
-/*begin groot scherm */
-
-@media only screen and (min-width: 1000px){
-	header img{
-		
-		max-width: auto;
-  		height: auto;
-  		padding-left: 37%;
-  		grid-column: 1;
-	}
-
-	.rechthoek1{
-		padding-top: 0%;
-	}
-
-	.dashboard{
-		display: grid;
-    	grid-template-columns: 1fr 1fr 1fr;
-	}
-
-
-}
