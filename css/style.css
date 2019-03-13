@@ -68,50 +68,7 @@ header img{
 
 /* begin medium */
 
-@media only screen and (min-width: 500px) and (max-width: 799px){
-	header{
-	height: auto;
-	width: auto;
-	background-color: #0D0D0D;
-	display: grid;
-	grid-template-columns: auto auto auto;
-	
-	/*background-image: url(../img/logo.png);
-	background-repeat: no-repeat;
-	background-position: center;
- */
-	}
 
-	header img{
-		
-		max-width: auto;
-  		height: auto;
-  		padding-left: 43%;
-  		grid-column: 1;
-	}
-
-	.rechthoek2 h2{
-		display: grid;
-		width: 100%;
-		grid-column-start: 2;
-		grid-column-end: 4;
-	}
-
-
-
-	.imgRuimte{
-		background: url("../img/astronaut.jpg");
-		background-position: center;
-    	background-repeat: no-repeat;
-    	background-size: cover;
-	}
-	.imgRuimte img{
-		display: none;
-
-	}
-
-
-}
 
 /* einde medium */
 
